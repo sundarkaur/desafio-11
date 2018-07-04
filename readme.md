@@ -1,4 +1,4 @@
-# Actividad 1 de Intro a Javascript y jQuery
+﻿# Actividad 1 de Intro a Javascript y jQuery
 
 Para la siguiente actividad clona este repositorio y trabaja en cada una de las carpetas respectivas.
 Cada ejercicio viene con su archivo, el cual contiene información relevante para poder realizar el ejercicio.
@@ -29,3 +29,4 @@ cambiaremos elementos de la página web
 5. Ejercicio desde cero: Mostrar una alerta cada vez que se haga clic sobre un párrafo
 6. Se tiene un párrafo, la idea es que al hacerle click derecho se agregue o remueva la clase cliqueable, el evento al ser cliqueaado se debe mostrar mostrar una alerta.
 
+ https://sundarkaur.github.io/desafio-11/.
