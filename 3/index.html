@@ -10,10 +10,17 @@
 -->
 
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>ejercicio 3</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+</script>
+  <style media="screen">
+    #row-3{
+      transition: 1s;
+    }
+  </style>
   </head>
   <body>
     <h1> Hey !! </h1>
@@ -62,5 +69,18 @@
 
       </fieldset>
     </form>
+    <script>
+      $("h1").css("color", "red");
+      $(".section-1").css("background-color", "yellow");
+      $(".counter").text(parseInt(101)+10);
+      $("row-3").on("click", function(){
+      $("#row-3").css("background-color", "gray")
+    })
+      $(".section-1 h1").css("font-size", "2rem")
+      $("#row-4").css("background-color", "red");
+
+    </script>
+
   </body>
 </html>
+
