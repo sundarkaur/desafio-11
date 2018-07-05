@@ -27,6 +27,16 @@ Para la solución puedes inspirarte en: https://codepen.io/gabrieleromanato/pen/
     <title></title>
   </head>
   <body>
+  <img src="../images/hamsa.jpg">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+	</script>
+	<script>
+    $(function(){
+      $("img").bind('contextmenu', function(){
+      	alert("imágenes con derecho de autor y que no se pueden descargar")
+      })
 
+})
+    </script>
   </body>
 </html>
